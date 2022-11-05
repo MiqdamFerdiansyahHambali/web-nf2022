@@ -1,0 +1,168 @@
+body {
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding: 5px;
+}
+
+#header {
+    background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+    height: 160px;
+    padding: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+	background: linear-gradient( 89.9deg,  rgba(255,243,110,1) 16.9%, rgba(30,204,214,1) 55.1%, rgba(5,54,154,1) 90.7% );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0%;
+}
+
+#header blockquote {
+    background-image: linear-gradient( 89.4deg,  rgba(194,0,39,1) 0.8%, rgba(10,35,104,1) 99.4% );
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    width: 55%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border: dotted 2px grey;
+}
+
+#soekarno {
+    margin-top: 5px;
+    font-size: x-large;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: bolder;
+	background: linear-gradient(to bottom, #e00000 0%, #ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} 
+
+.nav {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.b {
+    font-weight: bold;
+    font-size: 50px;
+    background: linear-gradient(to bottom, #30CFD0 0%, #120fd1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+main h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.isi p {
+    margin: 10px;
+    font-weight: bolder;
+    color: rgb(70, 70, 70);
+}
+
+#profil li {
+    font-weight: bolder;
+    color: rgb(70, 70, 70);
+}
+
+#beternak p {
+    font-weight: bolder;
+    color: rgb(70, 70, 70);
+}
+
+#beternak h4 {
+    font-size: large;
+} 
+
+.promo {
+    text-align: center;
+}
+
+.promo del {
+    font-size: small;
+    color: red;
+}
+
+.promo strong {
+    font-size: x-large;
+    color: green;
+}
+
+.promo h4 {
+    color: black;
+}
+
+#Wa {
+    color: #120fd1;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient( 69.7deg,  rgba(244,37,243,1) 1.4%, rgba(244,87,1,1) 36.2%, rgba(255,204,37,1) 72.2%, rgba(20,196,6,1) 113% );
+    height: 100px;
+    margin: auto;
+    padding: 5px;
+}
+
+footer nav {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer nav a  {
+    text-decoration: none;
+}
+
+/*Style Image*/
+
+.gambar {
+    width: 50%;
+    height: 230px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.gambar img {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.koleksi {
+    width: 50%;
+    height: 230px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.koleksi img {
+    border-radius: 10px;
+    margin: 5px;
+}
+
