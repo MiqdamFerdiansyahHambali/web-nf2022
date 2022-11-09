@@ -1,0 +1,57 @@
+body {
+    background-color: azure;
+    padding: 5px 20px 5px 20px;
+}
+
+.green {
+    width: 98%;
+    height: 180px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: greenyellow;
+    border-radius: 2px;
+}
+
+.yellow {
+    width: 210px;
+    height: 210px;
+    background-color: yellow;
+    position: absolute;
+    top: 210px;
+    margin: 0 0 0 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.orange {
+    width: 210px;
+    height: 210px;
+    background-color: orange;
+    position: absolute;
+    bottom: 15px;
+    margin: 0 0 0 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: crimson;
+    height: 210px;
+    width: 1050px;
+    position: absolute;
+    right: 40px;
+    margin-top: 15px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.aqua {
+    background-color: aqua;
+    height: 210px;
+    width: 1050px;
+    position: absolute;
+    right: 40px;
+    bottom: 15px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
