@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+header ul li {
+    margin: 0 1rem;
+}
+
+h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+ul li {
+    justify-content: center;
+    margin: 5px;
+    text-align: center;
+}
+
+img {
+    width: 5rem;
+}

@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: tan;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+main article {
+    background-color: antiquewhite;
+    flex: 2;
+    margin:
+}
+
+main aside {
+    background-color: palevioletred;
+    flex: 1;
+}
+
+main nav {
+    background-color: aquamarine;
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: tan;
+}
