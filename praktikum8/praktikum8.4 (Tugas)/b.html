@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 8.4 (b)</title>
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            background-color: pink;
+        }
+
+        header {
+            text-align: center;
+            background-color: cadetblue;
+            margin: 20px 10px 10px 10px;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            text-align: center;
+            margin: 10px;
+        }
+
+        main article {
+            background-color: palevioletred;
+            flex: 2;
+            order: 2;
+            padding-top: 200px;
+            padding-bottom: 20px;
+        }
+
+        .container-img {
+            text-align: center;
+            width: max-content;
+            display: flex;
+            margin: auto auto auto auto;
+        }
+
+        .container-img span {
+            width: 180px;
+            height: 180px;
+            background-color: lightgrey;
+            margin: 10px;
+            align-items: center;
+        }
+
+        main aside {
+            background-color: darkcyan;
+            flex: 1;
+            margin-right: 20px;
+            padding-top: 200px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: cadetblue;
+            margin: 10px 10px 20px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <article>
+            <h1>Article</h1>
+            <div class="container-img">
+                <span>Image</span>
+                <span>Image</span>
+                <span>Image</span>
+            </div>
+        </article>
+        <aside>
+            <h1>Aside</h1>
+        </aside>
+    </main>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+
+</html>

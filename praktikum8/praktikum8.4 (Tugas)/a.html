@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum 8.4 (a)</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row-reverse;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            text-align: center;
+            height: 741px;
+        }
+
+        .container1 {
+            display: flex;
+            flex-direction: column;
+            height: 741px;
+            width: 20%;
+        }
+
+        .container1 nav {
+            background-color: pink;
+            padding-top: 280px;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 741px;
+        }
+
+        .container2 header {
+            text-align: center;
+            background-color: tan;
+        }
+
+        .container2 article {
+            background-color: antiquewhite;
+            flex: 1;
+            padding-top: 200px;
+        }
+
+        .container2 aside {
+            background-color: aquamarine;
+            flex: 1;
+            padding-top: 200px;
+        }
+
+        .container2 footer {
+            text-align: center;
+            background-color: tan;
+        }
+
+        .container3 {
+            display: flex;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container2">
+        <header>
+            <h1>Header</h1>
+        </header>
+        <div class="container3">
+            <article>
+                <h1>Article</h1>
+            </article>
+            <aside>
+                <h1>Aside</h1>
+            </aside>
+        </div>
+
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </div>
+
+    <div class="container1">
+        <nav>
+            <h1>Nav</h1>
+        </nav>
+    </div>
+
+
+</body>
+
+</html>
