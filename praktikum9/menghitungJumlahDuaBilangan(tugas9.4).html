@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Jumlah Dua Bilangan</title>
+</head>
+
+<body>
+    <h1>Menghitung Jumlah Dua Bilangan</h1>
+
+    <input type="number" id="angka1" onchange="penjumlahan()">
+    <br>
+    <span>+</span>
+    <br>
+    <input type="number" id="angka2" onchange="penjumlahan()">
+    <br>
+    <span>=</span>
+    <br>
+    <input placeholder="Hasil" id="hasil" />
+
+
+    <script>
+        function penjumlahan() {
+            let angka1 = document.getElementById("angka1").value;
+            let angka2 = document.getElementById("angka2").value;
+            let hasil = parseInt(angka1) + parseInt(angka2);
+
+            if (!isNaN(hasil)) {
+                document.getElementById("hasil").value = hasil;
+            }
+        }
+    </script>
+</body>
+
+</html>
