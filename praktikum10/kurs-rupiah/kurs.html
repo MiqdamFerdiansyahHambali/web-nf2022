@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kurs Converter</title>
+    <script>
+        function convert() {
+            let nAwal = document.getElementById("nilaiAwal").value;
+            let kurs = document.getElementById("selectKurs").value;
+            let hasil;
+
+            if (kurs == "USD") {
+                hasil = nAwal * 9915;
+            }
+            else if (kurs == "SGD") {
+                hasil = nAwal * 13472;
+            }
+            else if (kurs == "Ringgit") {
+                hasil = nAwal * 874;
+            }
+            else if (kurs == "Yen") {
+                hasil = nAwal * 120;
+            }
+            else if (kurs == "Euro") {
+                hasil = nAwal * 15888;
+            }
+            else if (kurs == "Riyal") {
+                hasil = nAwal * 3592;
+            }
+            else {
+                hasil = 0;
+            }
+
+            document.getElementById("nilaiAkhir").value = String("Rp. " + hasil);
+        }
+    </script>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Kurs Rupiah - Mata Uang Asing</legend>
+        <table>
+            <tr>
+                <td>Nilai Awal</td>
+                <td>Dari</td>
+                <td>Nilai Akhir</td>
+            </tr>
+            <tr>
+                <td><input type="number" id="nilaiAwal" onchange="convert()"></td>
+                <td>
+                    <select id="selectKurs" onchange="convert()">
+                        <option value="o">---Pilih---</option>
+                        <option value="USD">Dollar US</option>
+                        <option value="SGD">Dolar Singapura</option>
+                        <option value="Ringgit">Ringgit Malaysia</option>
+                        <option value="Yen">Yen Jepang</option>
+                        <option value="Euro">Euro</option>
+                        <option value="Riyal">Riyal Saudi</option>
+                    </select>
+                </td>
+                <td><input id="nilaiAkhir" value="0" readonly></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
