@@ -1,0 +1,49 @@
+body {
+    background-color: steelblue;
+}
+
+.progress-bar {
+    background-color: teal;
+}
+
+.jumbotron {
+    background-color: teal;
+}
+
+
+nav>ol>li>a {
+    text-decoration: none;
+}
+
+
+
+section {
+    background-color: royalblue;
+}
+
+.footer {
+    background-color: teal;
+}
+
+address {
+    color: white;
+}
+
+ul {
+    display: flex;
+
+}
+
+.list-item {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+}
+
+.list-item a {
+    color: aliceblue;
+}
+
+.col-md-4>h3 {
+    margin-left: 180px;
+}
